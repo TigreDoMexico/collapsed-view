@@ -1,10 +1,15 @@
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
+import Pannel from './src/Pannel'
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Collapsed-View</Text>
+      <Pannel>
+        <View>
+          <Text>TESTE</Text>
+        </View>
+      </Pannel>
     </View>
   );
 }
